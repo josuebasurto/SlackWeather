@@ -1,0 +1,22 @@
+{
+  "name": "slackweather",
+  "version": "1.0.0",
+  "description": "Plugin to push weather to slack.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "weather",
+    "slack",
+    "node"
+  ],
+  "author": "@josuebasurto",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "nodemon": "^1.18.10",
+    "slack": "^11.0.2",
+    "weather-js": "^2.0.0"
+  }
+}
